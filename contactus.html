@@ -23,9 +23,13 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
+                <div class-"col-4 col-sm-3 col-md-2 align-self-center">
+                    <a href="index.html"> <img src="img/logo.png" class="img-fluid" />  </a>
+
+                </div>
                 <div class="col">
                     <h1>NuCamp</h1>
-                    <h2>a better way to camp</h2>
+                    <h2>a better way to CONTACT US</h2>
                 </div>
             </div>
         </div>
@@ -33,6 +37,8 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png", height="30" width="30" /></a>
+
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -80,7 +86,51 @@
                 <hr />
             </div>
             <div class="col-md-10">
-                Form goes here
+               <form>
+                    <div class="row form-group " >
+                        <label for="firstName" class="col-md-2">First Name </label>
+                        <div class="col-md-10">
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="lastName" class="col-md-2">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text"  id="lastName" name="lastName" placeholder=" Last Name"/>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="areaCode" class="col-md-2">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel"  id= "areaCode" name="areaCode" placeholder="Area Code"/>
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" name="telNum"    placeholder="Tel. num" />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <Label for="email" class="col-md-2 col-form-label">Email</Label>
+                        <div class=" col-md-10">
+                            <input type="email" id="email" name="email" placeholder="Email"/>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-offsset-md-2">
+                                May we contact you? <input type="radio" id="contactYes" name="contactRadio" value="yes">
+                            <label for="contactYes">yes</label>
+                            <input type="radio" id="contactNo" name="contactRadio" value="no"/> 
+                            <label for="contactNo">No</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="feedback" class="col-md-2">Your Feedback</label>
+                        <textarea id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
+                    <div class="row form-group">
+                        <button type="submit">Send Feedback</button>
+                    </div>
+               </form>
             </div>
        </div>
 
@@ -100,14 +150,14 @@
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
-                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234<br />
-                    <i class="fa fa-envelope-o fa-lg text-primary"></i> campsites@nucamp.co
+                    <a roll= "button" class="btn btn-link" href= "tel: +16107266407"> </a><i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234</a> <br />
+                    <a roll= "button" class="btn btn-link"href="mailto:campsites2nucamp.co"></a><i class="fa fa-envelope fa-lg text-primary"></i> campsites@nucamp.co </a> </div>
                 </div>
            </div>
         </div>
@@ -121,3 +171,4 @@
 </body>
 
 </html>
+

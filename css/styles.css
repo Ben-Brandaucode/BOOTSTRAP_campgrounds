@@ -28,6 +28,14 @@ footer{
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-.navbar{
+.navbar-dark{
      background-color: #901CAD;
+}
+
+. carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ccarousel {
+    border: solid #5637DD;
 }
